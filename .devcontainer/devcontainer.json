@@ -1,0 +1,11 @@
+{
+  "name": "Flutter Dev",
+  "image": "cirrusci/flutter:stable",
+  "postCreateCommand": "flutter doctor",
+  "customizations": {
+    "vscode": {
+      "extensions": ["Dart-Code.flutter"]
+    }
+  },
+  "forwardPorts": [8080]
+}
